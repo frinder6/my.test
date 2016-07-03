@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop.xsd
+        http://www.springframework.org/schema/tx
+        http://www.springframework.org/schema/tx/spring-tx.xsd">
+
+
+    <bean id="testAdvisor" class="com.spring.aop.TestAdvisor"/>
+    <bean id="testAOP" class="org.springframework.aop.framework.ProxyFactoryBean">
+        <property name="proxyInterfaces">
+            <value>com.spring.aop.AbcInterface</value>
+        </property>
+        <property name="target">
+            <bean class="com.spring.aop.TestTarget"/>
+        </property>
+        <property name="interceptorNames">
+            <list>
+                <value>testAdvisor</value>
+            </list>
+        </property>
+    </bean>
+
+
+    <!--<tx:advice id="testAdvice">
+        <tx:attributes>
+            <tx:method name="*"/>
+        </tx:attributes>
+    </tx:advice>
+    
+    <aop:config>
+        <aop:pointcut id="testPointcut" expression="execution(* com.aop..*.*(..))" />
+        <aop:advisor advice-ref="testAdvice" pointcut-ref="testPointcut" />
+    </aop:config>-->
+
+
+</beans>
