@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <resourceExtensions />
+    <wildcardResourcePatterns>
+      <entry name="!?*.java" />
+      <entry name="!?*.form" />
+      <entry name="!?*.class" />
+      <entry name="!?*.groovy" />
+      <entry name="!?*.scala" />
+      <entry name="!?*.flex" />
+      <entry name="!?*.kt" />
+      <entry name="!?*.clj" />
+      <entry name="!?*.aj" />
+    </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="false">
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="java.common" />
+        <module name="java.design.pattern" />
+        <module name="java.netty" />
+        <module name="java.nio" />
+        <module name="java.spring" />
+        <module name="java.thread" />
+        <module name="jvm.groovy" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.7">
+      <module name="java.common" target="1.7" />
+      <module name="java.design.pattern" target="1.7" />
+      <module name="java.netty" target="1.7" />
+      <module name="java.nio" target="1.7" />
+      <module name="java.spring" target="1.7" />
+      <module name="java.thread" target="1.7" />
+      <module name="jvm.groovy" target="1.7" />
+      <module name="my.test" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

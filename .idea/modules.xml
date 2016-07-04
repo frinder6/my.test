@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/java.common/java.common.iml" filepath="$PROJECT_DIR$/java.common/java.common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java.design.pattern/java.design.pattern.iml" filepath="$PROJECT_DIR$/java.design.pattern/java.design.pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java.netty/java.netty.iml" filepath="$PROJECT_DIR$/java.netty/java.netty.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java.nio/java.nio.iml" filepath="$PROJECT_DIR$/java.nio/java.nio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java.spring/java.spring.iml" filepath="$PROJECT_DIR$/java.spring/java.spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java.thread/java.thread.iml" filepath="$PROJECT_DIR$/java.thread/java.thread.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jvm.groovy/jvm.groovy.iml" filepath="$PROJECT_DIR$/jvm.groovy/jvm.groovy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my.test.iml" filepath="$PROJECT_DIR$/my.test.iml" />
+    </modules>
+  </component>
+</project>
