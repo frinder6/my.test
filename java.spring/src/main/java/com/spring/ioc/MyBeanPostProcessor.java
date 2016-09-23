@@ -1,6 +1,7 @@
 package com.spring.ioc;
 
-import org.apache.log4j.Logger;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.config.BeanPostProcessor;
 import org.springframework.stereotype.Component;
@@ -11,8 +12,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class MyBeanPostProcessor implements BeanPostProcessor {
 
-    private final Logger logger = Logger.getLogger(this.getClass());
-
+    private final Logger logger = LoggerFactory.getLogger(this.getClass());
 
     @Override
     public Object postProcessBeforeInitialization(Object bean, String beanName) throws BeansException {

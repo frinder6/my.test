@@ -1,10 +1,10 @@
 package com.spring.ioc;
 
-import org.apache.log4j.Logger;
-import org.springframework.beans.BeansException;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.DisposableBean;
 import org.springframework.beans.factory.InitializingBean;
-import org.springframework.beans.factory.config.BeanPostProcessor;
+import org.springframework.stereotype.Component;
 
 import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
@@ -12,11 +12,11 @@ import javax.annotation.PreDestroy;
 /**
  * Created by frinder_liu on 2016/6/22.
  */
-//@Component
+@Component
 public class InitDestBeanTest implements InitializingBean, DisposableBean {
 
 
-    private final Logger logger = Logger.getLogger(this.getClass());
+    private final Logger logger = LoggerFactory.getLogger(this.getClass());
 
     private int index = 0;
 

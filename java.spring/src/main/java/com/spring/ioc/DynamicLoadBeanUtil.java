@@ -1,6 +1,7 @@
 package com.spring.ioc;
 
-import org.apache.log4j.Logger;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.support.DefaultListableBeanFactory;
 import org.springframework.beans.factory.xml.ResourceEntityResolver;
@@ -18,7 +19,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class DynamicLoadBeanUtil implements ApplicationContextAware, ApplicationListener {
 
-    private final Logger logger = Logger.getLogger(this.getClass());
+    private final Logger logger = LoggerFactory.getLogger(this.getClass());
 
     private AbstractApplicationContext applicationContext;
 
@@ -48,7 +49,7 @@ public class DynamicLoadBeanUtil implements ApplicationContextAware, Application
     @Override
     public void onApplicationEvent(ApplicationEvent event) {
         logger.info("**********************************");
-        logger.info(event);
+        logger.info(event.toString());
         logger.info("**********************************");
     }
 }

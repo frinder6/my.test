@@ -1,9 +1,10 @@
 package com.share;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
-
-import org.apache.log4j.Logger;
 
 /**
  * 
@@ -14,7 +15,7 @@ import org.apache.log4j.Logger;
  */
 public class LockShare implements Runnable {
 
-	private static Logger logger = Logger.getLogger(LockShare.class);
+	private final Logger logger = LoggerFactory.getLogger(this.getClass());
 
 	private ThreadLocal<Integer> saleCount = new ThreadLocal<Integer>();
 

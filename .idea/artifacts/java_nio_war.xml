@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="java.nio:war">
+    <output-path>$PROJECT_DIR$/java.nio/target</output-path>
+    <root id="archive" name="java.nio.war">
+      <element id="artifact" artifact-name="java.nio:war exploded" />
+    </root>
+  </artifact>
+</component>

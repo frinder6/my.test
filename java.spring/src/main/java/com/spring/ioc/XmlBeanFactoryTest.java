@@ -19,17 +19,17 @@ public class XmlBeanFactoryTest {
 //		test.print();
 
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
-        // InitDestBeanTest test = (InitDestBeanTest)context.getBean("initDestBeanTest");
-        // context.close();
-        DynamicLoadBeanUtil util = (DynamicLoadBeanUtil) context.getBean("dynamicLoadBeanUtil");
-
-        util.dynamicLoadBeanByXml("beans.xml");
-        App app = (App) context.getBean("app");
-        app.print();
-
-        util.dynamicLoadBeanByXml("beans2.xml");
-        App2 app2 = (App2)context.getBean("app");
-        app2.print();
+//         InitDestBeanTest test = (InitDestBeanTest)context.getBean("initDestBeanTest");
+         context.close();
+//        DynamicLoadBeanUtil util = (DynamicLoadBeanUtil) context.getBean("dynamicLoadBeanUtil");
+//
+//        util.dynamicLoadBeanByXml("beans.xml");
+//        App app = (App) context.getBean("app");
+//        app.print();
+//
+//        util.dynamicLoadBeanByXml("beans2.xml");
+//        App2 app2 = (App2)context.getBean("app");
+//        app2.print();
     }
 
 }
