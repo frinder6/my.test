@@ -12,21 +12,16 @@ import java.lang.reflect.Method;
 public class ProxyFactoryTest implements IProxyFactory {
 
     public static void main(String[] args) {
-//        ProxyFactoryTest test = new ProxyFactoryTest();
-//        ProxyFactory factory = new ProxyFactory(test);
-//        factory.addAdvice(new MyAdvice());
-//        factory.addAdvisor(new DefaultBeanFactoryPointcutAdvisor());
-//        ProxyFactoryTest tProxy = (ProxyFactoryTest) factory.getProxy();
-//        tProxy.print();
         ProxyFactoryTest target = new ProxyFactoryTest();
         ProxyFactory factory = new ProxyFactory(target);
         factory.addAdvice(new MyAdvice());
         factory.setTarget(target);
-        ProxyFactoryTest proxy = (ProxyFactoryTest)factory.getProxy();
+        // JDK基于interface，此处必须使用interface不能使用实现类
+        IProxyFactory proxy = (IProxyFactory) factory.getProxy();
         proxy.print();
     }
 
-    public void print(){
+    public void print() {
         System.out.println("test...");
     }
 

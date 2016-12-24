@@ -8,3 +8,5 @@
 /java.spring/target
 /java.thread/target
 /jvm.groovy/target
+*.log
+*.hprof

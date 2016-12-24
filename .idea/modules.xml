@@ -4,7 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/java.app/java.app.iml" filepath="$PROJECT_DIR$/java.app/java.app.iml" />
       <module fileurl="file://$PROJECT_DIR$/java.common/java.common.iml" filepath="$PROJECT_DIR$/java.common/java.common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java.dbs/java.dbs.iml" filepath="$PROJECT_DIR$/java.dbs/java.dbs.iml" />
       <module fileurl="file://$PROJECT_DIR$/java.design.pattern/java.design.pattern.iml" filepath="$PROJECT_DIR$/java.design.pattern/java.design.pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java.jvm/java.jvm.iml" filepath="$PROJECT_DIR$/java.jvm/java.jvm.iml" />
       <module fileurl="file://$PROJECT_DIR$/java.netty/java.netty.iml" filepath="$PROJECT_DIR$/java.netty/java.netty.iml" />
       <module fileurl="file://$PROJECT_DIR$/java.nio/java.nio.iml" filepath="$PROJECT_DIR$/java.nio/java.nio.iml" />
       <module fileurl="file://$PROJECT_DIR$/java.spring/java.spring.iml" filepath="$PROJECT_DIR$/java.spring/java.spring.iml" />

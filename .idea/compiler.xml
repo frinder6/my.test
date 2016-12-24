@@ -24,7 +24,9 @@
         <processorPath useClasspath="true" />
         <module name="java.app" />
         <module name="java.common" />
+        <module name="java.dbs" />
         <module name="java.design.pattern" />
+        <module name="java.jvm" />
         <module name="java.netty" />
         <module name="java.nio" />
         <module name="java.spring" />
@@ -35,8 +37,10 @@
     <bytecodeTargetLevel target="1.7">
       <module name="java.app" target="1.7" />
       <module name="java.common" target="1.7" />
+      <module name="java.dbs" target="1.7" />
       <module name="java.design.pattern" target="1.7" />
       <module name="java.guava" target="1.7" />
+      <module name="java.jvm" target="1.7" />
       <module name="java.netty" target="1.7" />
       <module name="java.nio" target="1.7" />
       <module name="java.spring" target="1.7" />
