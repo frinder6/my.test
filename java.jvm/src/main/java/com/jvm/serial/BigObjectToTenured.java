@@ -10,9 +10,9 @@ import com.jvm.MemoryAllocation;
 public class BigObjectToTenured extends MemoryAllocation {
 
     /**
-     * VM Args: -verbose:gc -Xmx30M -Xms30M -Xmn10M -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -XX:SurvivorRatio=8 -XX:+UseSerialGC
+     * VM Args: -verbose:gc -Xmx50M -Xms50M -Xmn10M -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -XX:SurvivorRatio=8 -XX:+UseSerialGC
      * <p>
-     * 参数说明：heap大小20M，初始大小10M，年轻代大小10M（eden:survivor=8:1），使用 Serial 垃圾收集器
+     * 参数说明：heap大小50M，初始大小50M，年轻代大小10M（eden:survivor=8:1），使用 Serial 垃圾收集器
      */
     public static void main(String[] args) {
         System.out.println("begin...");
