@@ -34,19 +34,18 @@
         <module name="jvm.groovy" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="1.7">
-      <module name="java.app" target="1.7" />
-      <module name="java.common" target="1.7" />
-      <module name="java.dbs" target="1.7" />
-      <module name="java.design.pattern" target="1.7" />
-      <module name="java.guava" target="1.7" />
-      <module name="java.jvm" target="1.7" />
-      <module name="java.netty" target="1.7" />
-      <module name="java.nio" target="1.7" />
-      <module name="java.spring" target="1.7" />
-      <module name="java.thread" target="1.7" />
-      <module name="jvm.groovy" target="1.7" />
-      <module name="my.test" target="1.7" />
+    <bytecodeTargetLevel target="1.8">
+      <module name="java.app" target="1.8" />
+      <module name="java.common" target="1.8" />
+      <module name="java.dbs" target="1.8" />
+      <module name="java.design.pattern" target="1.8" />
+      <module name="java.jvm" target="1.8" />
+      <module name="java.netty" target="1.8" />
+      <module name="java.nio" target="1.8" />
+      <module name="java.spring" target="1.8" />
+      <module name="java.thread" target="1.8" />
+      <module name="jvm.groovy" target="1.8" />
+      <module name="my.test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
