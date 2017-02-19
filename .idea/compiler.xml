@@ -31,6 +31,7 @@
         <module name="java.nio" />
         <module name="java.spring" />
         <module name="java.thread" />
+        <module name="java.thread2" />
         <module name="jvm.groovy" />
       </profile>
     </annotationProcessing>
@@ -44,6 +45,7 @@
       <module name="java.nio" target="1.8" />
       <module name="java.spring" target="1.8" />
       <module name="java.thread" target="1.8" />
+      <module name="java.thread2" target="1.8" />
       <module name="jvm.groovy" target="1.8" />
       <module name="my.test" target="1.8" />
     </bytecodeTargetLevel>

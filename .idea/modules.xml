@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/java.nio/java.nio.iml" filepath="$PROJECT_DIR$/java.nio/java.nio.iml" />
       <module fileurl="file://$PROJECT_DIR$/java.spring/java.spring.iml" filepath="$PROJECT_DIR$/java.spring/java.spring.iml" />
       <module fileurl="file://$PROJECT_DIR$/java.thread/java.thread.iml" filepath="$PROJECT_DIR$/java.thread/java.thread.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java.thread2/java.thread2.iml" filepath="$PROJECT_DIR$/java.thread2/java.thread2.iml" />
       <module fileurl="file://$PROJECT_DIR$/jvm.groovy/jvm.groovy.iml" filepath="$PROJECT_DIR$/jvm.groovy/jvm.groovy.iml" />
       <module fileurl="file://$PROJECT_DIR$/my.test.iml" filepath="$PROJECT_DIR$/my.test.iml" />
     </modules>

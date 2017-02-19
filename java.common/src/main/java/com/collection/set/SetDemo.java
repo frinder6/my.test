@@ -17,6 +17,8 @@ public class SetDemo {
             add("fgh");
         }};
 
+        System.out.println(haseSet.contains("Abc"));
+
         Set<String> linkedHashSet = new LinkedHashSet() {{
             add("abc");
             add("xyz");

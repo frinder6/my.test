@@ -17,6 +17,7 @@
         <module>java.app</module>
         <module>java.jvm</module>
         <module>java.dbs</module>
+        <module>java.thread2</module>
     </modules>
     <packaging>pom</packaging>
 
